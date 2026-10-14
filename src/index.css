@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ground: #f2f3f5;
+  --color-ink: #151821;
+  --color-muted: #5a6070;
+  --color-line: #dfe2e8;
+  --color-line-strong: #c9cdd6;
+  --color-track: #e6e8ed;
+  --color-accent: #d62828;
+
+  --font-sans: 'Figtree', system-ui, sans-serif;
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+body {
+  @apply bg-ground font-sans text-ink antialiased;
+}
